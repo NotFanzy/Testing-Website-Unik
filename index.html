@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhammad Irfan Khumaidi</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: linear-gradient(to bottom, #cce5ff, #f4f9ff);
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(to right, #1d3557, #457b9d);
+      color: white;
+      padding: 60px 20px 40px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .profile-photo {
+      width: 200px;
+      height: 250px;
+      background-color: #ccc;
+      border-radius: 12px;
+      margin: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #666;
+      font-size: 14px;
+    }
+
+    .profile-info {
+      max-width: 600px;
+      margin: 20px;
+    }
+
+    .profile-info h1 {
+      margin-top: 0;
+      font-size: 32px;
+      color: #f1faee;
+    }
+
+    .profile-info p {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #f8f9fa;
+    }
+
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section h2 {
+      color: #1d3557;
+      border-bottom: 2px solid #1d3557;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    .gallery {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .gallery .normal {
+      width: 250px;
+      height: 150px;
+      background-color: #deeefc;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #457b9d;
+    }
+
+    .gallery .highlight {
+      width: 250px;
+      height: 180px;
+      background-color: #bcd6f7;
+      border: 3px solid #1d3557;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #1d3557;
+      font-weight: bold;
+      font-size: 18px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .small-certificates {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 15px;
+      margin-top: 30px;
+    }
+
+    .small-certificates div {
+      background-color: #e0ecff;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+      font-size: 14px;
+      color: #1d3557;
+    }
+
+    .contact-info {
+      background-color: #e0ecff;
+      padding: 30px;
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      font-size: 16px;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .contact-info div {
+      background-color: #f4f9ff;
+      padding: 15px;
+      border-radius: 8px;
+      border-left: 5px solid #1d3557;
+    }
+
+    footer {
+      background-color: #1d3557;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="profile-photo">
+  <img src="foto-profil.jpg" alt="Foto Irfan" style="width:100%; height:100%; border-radius:12px; object-fit:cover;">
+</div>
+
+    <div class="profile-info">
+      <h1>Muhammad Irfan Khumaidi</h1>
+      <p>Saya adalah lulusan tahun 2025 dari SMAN 94 Jakarta, dan siap melanjutkan pendidikan sebagai Mahasiswa Baru di Universitas 17 Agustus 1945 (UNTAG). Memiliki latar belakang aktif di bidang teknologi, elektronik, desain, dan organisasi, saya telah berkontribusi dalam pengembangan konten digital, kampanye sekolah, dan proyek Arduino. Saya juga memiliki pengalaman kerja di bidang teknisi elektronik dan desain grafis. Dengan kemampuan di bidang C++, HTML, Java, Python, serta desain menggunakan Photoshop dan Canva, saya percaya diri untuk terus berkembang menjadi teknisi dan programmer profesional yang berdedikasi tinggi.</p>
+    </div>
+  </header>
+
+  <section class="section">
+    <h2>Riwayat Pendidikan</h2>
+    <p><strong>SMAN 94 Jakarta</strong> (2022 – 2025)<br>
+    Nilai rata-rata setara IPK: 88/100</p>
+  </section>
+
+  <section class="section">
+    <h2>Pengalaman Kerja</h2>
+    <p><strong>Teknisi & Sales Elektronik – Yohan Cell, ITC Roxy Mas</strong> (Sep 2023 – Jun 2025)<br>
+    Menangani diagnostik dan perbaikan perangkat elektronik, instalasi hardware, dan dukungan teknis serta konsultasi produk.</p>
+    <p><strong>Manajer & Desainer Grafis – Hafan Jaya Fotocopy</strong> (Mei 2020 – Agu 2023)<br>
+    Mengelola operasional, proyek desain sekolah, digitalisasi dokumen, serta pelayanan pelanggan.</p>
+  </section>
+
+  <section class="section">
+    <h2>Pengalaman Organisasi & Projek</h2>
+    <p><strong>Anggota MPK Komisi B (2022–2024)</strong> – Divisi Informatika & Kreatif, pengembangan media visual dan situs internal MPK.</p>
+    <p><strong>Projek P5:</strong><br>
+    - Ketua/Wakil Ketua kelompok di berbagai proyek (anti-bullying, banjir Arduino, budaya digital, kewirausahaan, gaya hidup berkelanjutan, suara demokrasi).</p>
+  </section>
+
+  <section class="section">
+    <h2>Portofolio Digital</h2>
+    <p>📌 <a href="https://sites.google.com/view/irfan-khumaidi-blog" target="_blank">https://sites.google.com/view/irfan-khumaidi-blog</a><br>
+    Berisi dokumentasi desain, projek digital, dan tulisan reflektif dari kegiatan sekolah dan organisasi.</p>
+  </section>
+
+  <section class="section">
+    <h2>Prestasi / Sertifikat</h2>
+    <div class="gallery">
+  <div class="normal">
+    <img src="sertifikat1.jpg" alt="Sertifikat 1" style="width:100%; height:100%; border-radius:12px; object-fit:cover;">
+  </div>
+  <div class="highlight">
+    <img src="sertifikat-tertinggi.jpg" alt="Sertifikat Tertinggi" style="width:100%; height:100%; border-radius:12px; object-fit:cover;">
+  </div>
+  <div class="normal">
+    <img src="sertifikat3.jpg" alt="Sertifikat 3" style="width:100%; height:100%; border-radius:12px; object-fit:cover;">
+  </div>
+</div>
+
+    <div class="small-certificates">
+  <div><img src="sertifikat-a.jpg" alt="Sertifikat A" style="width:100%; border-radius:8px;"></div>
+  <div><img src="sertifikat-b.jpg" alt="Sertifikat B" style="width:100%; border-radius:8px;"></div>
+  <div><img src="sertifikat-c.jpg" alt="Sertifikat C" style="width:100%; border-radius:8px;"></div>
+  <div><img src="sertifikat-d.jpg" alt="Sertifikat D" style="width:100%; border-radius:8px;"></div>
+  <div><img src="sertifikat-e.jpg" alt="Sertifikat E" style="width:100%; border-radius:8px;"></div>
+  <div><img src="sertifikat-f.jpg" alt="Sertifikat F" style="width:100%; border-radius:8px;"></div>
+</div>
+
+  </section>
+
+  <section class="section">
+    <h2>Kontak</h2>
+    <div class="contact-info">
+      <div>📧 Email: irfankhumaidi06@gmail.com</div>
+      <div>📱 WhatsApp: 0857-7777-2048</div>
+      <div>🌐 Website: <a href="https://sites.google.com/view/irfan-khumaidi-blog" target="_blank">irfan-khumaidi-blog</a></div>
+      <div>🏠 Alamat: Jl. Kresek Raya Kp. Pulo No.8 7, RT.7/RW.8, Duri Kosambi</div>
+      <div>📞 Telepon Alternatif: +62 889-7313-7773</div>
+      <div>!!! DIBAWAH INI ADA GAMES MENARIK !!!</div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Muhammad Irfan Khumaidi | Website Pribadi
+  </footer>
+
+  <section class="section" id="minigame2">
+  <h2 style="text-align:center; color:#1d3557;">🎮 MiniGame Kecil Kecilan: Tebak Warna RGB!</h2>
+  <div id="rgbGame" style="display:flex; flex-direction:column; align-items:center; gap:20px; padding:20px; background:#f0f8ff; border-radius:12px;">
+    <div id="rgbQuestion" style="font-size:22px; font-weight:bold; color:#1d3557;"></div>
+    <div id="colorChoices" style="display:flex; flex-wrap:wrap; gap:15px; justify-content:center;"></div>
+    <div id="feedback" style="font-size:18px; margin-top:15px;"></div>
+    <button onclick="generateRGBGame()" style="padding:10px 20px; border:none; background-color:#1d3557; color:white; border-radius:8px; font-size:16px;">Main Lagi</button>
+    <div style="margin-top:10px; font-size:14px;">Poinmu: <span id="score">0</span></div>
+    <div style="margin-top:5px; font-size:14px;">Level: <span id="level">1</span> | Akurasi: <span id="accuracy">100%</span></div>
+    <div id="progressBarContainer" style="margin-top:15px; width:100%; max-width:400px; background:#ccc; height:20px; border-radius:10px;">
+      <div id="progressBar" style="height:100%; width:0%; background:#1d3557; border-radius:10px;"></div>
+    </div>
+  </div>
+</section>
+
+<script>
+  let score = 0;
+  let totalQuestions = 0;
+  let correctAnswers = 0;
+  let level = 1;
+  let timeLimit = 10;
+  let timerInterval;
+
+  const rgbQ = document.getElementById('rgbQuestion');
+  const choices = document.getElementById('colorChoices');
+  const feedback = document.getElementById('feedback');
+  const scoreEl = document.getElementById('score');
+  const levelEl = document.getElementById('level');
+  const accuracyEl = document.getElementById('accuracy');
+  const progressBar = document.getElementById('progressBar');
+
+  function getRandomColor() {
+    return `rgb(${Math.floor(Math.random()*256)}, ${Math.floor(Math.random()*256)}, ${Math.floor(Math.random()*256)})`;
+  }
+
+  function updateProgressBar(percentage) {
+    progressBar.style.width = percentage + '%';
+  }
+
+  function startTimer(limit) {
+    let time = limit;
+    clearInterval(timerInterval);
+    timerInterval = setInterval(() => {
+      time--;
+      updateProgressBar(((limit - time) / limit) * 100);
+      if (time <= 0) {
+        clearInterval(timerInterval);
+        feedback.textContent = '⏰ Waktu habis!';
+        feedback.style.color = 'orange';
+        score = 0;
+        updateScoreAndStats();
+      }
+    }, 1000);
+  }
+
+  function updateScoreAndStats() {
+    scoreEl.textContent = score;
+    levelEl.textContent = level;
+    let acc = totalQuestions === 0 ? 100 : Math.floor((correctAnswers / totalQuestions) * 100);
+    accuracyEl.textContent = acc + '%';
+  }
+
+  function generateRGBGame() {
+    feedback.textContent = "";
+    choices.innerHTML = "";
+    totalQuestions++;
+
+    if (score > 0 && score % 5 === 0) {
+      level++;
+      timeLimit = Math.max(3, timeLimit - 1); // Semakin susah
+    }
+
+    let correctColor = getRandomColor();
+    rgbQ.textContent = `Pilih warna yang sesuai dengan kode ini: ${correctColor}`;
+
+    let options = [correctColor];
+    while (options.length < 6) {
+      let color = getRandomColor();
+      if (!options.includes(color)) options.push(color);
+    }
+
+    shuffleArray(options);
+    startTimer(timeLimit);
+
+    options.forEach(color => {
+      let btn = document.createElement("div");
+      btn.style.width = "80px";
+      btn.style.height = "80px";
+      btn.style.borderRadius = "8px";
+      btn.style.cursor = "pointer";
+      btn.style.backgroundColor = color;
+      btn.style.border = "2px solid #457b9d";
+      btn.title = color;
+      btn.onclick = () => {
+        clearInterval(timerInterval);
+        if (color === correctColor) {
+          feedback.textContent = "🎉 Benar!";
+          feedback.style.color = "green";
+          score += 1;
+          correctAnswers++;
+        } else {
+          feedback.textContent = `❌ Salah! Warna yang benar: ${correctColor}`;
+          feedback.style.color = "red";
+          score = 0;
+        }
+        updateScoreAndStats();
+      };
+      choices.appendChild(btn);
+    });
+  }
+
+  function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i+1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+  }
+
+  generateRGBGame();
+</script>
+
+<!-- =================== PEMBATAS ANTAR GAME =================== -->
+
+<section class="section" id="minigame3">
+  <h2 style="text-align:center; color:#1d3557;">🤓 MiniGame 3: Matematika Kilat!</h2>
+  <div id="mathGame" style="display:flex; flex-direction:column; align-items:center; gap:20px; padding:20px; background:#f9f9f9; border-radius:12px;">
+    <div id="mathQuestion" style="font-size:22px; font-weight:bold; color:#1d3557;"></div>
+    <div id="mathChoices" style="display:flex; flex-wrap:wrap; gap:15px; justify-content:center;"></div>
+    <div id="mathFeedback" style="font-size:18px; margin-top:15px;"></div>
+    <button onclick="generateMathGame()" style="padding:10px 20px; border:none; background-color:#1d3557; color:white; border-radius:8px; font-size:16px;">Soal Baru</button>
+    <div style="margin-top:10px; font-size:14px;">Skor: <span id="mathScore">0</span></div>
+  </div>
+</section>
+
+<script>
+  // ========== Game Matematika ==========
+  let mathScore = 0;
+  const mathQ = document.getElementById('mathQuestion');
+  const mathChoices = document.getElementById('mathChoices');
+  const mathFeedback = document.getElementById('mathFeedback');
+  const mathScoreEl = document.getElementById('mathScore');
+
+  function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+
+  function generateMathGame() {
+    mathChoices.innerHTML = "";
+    mathFeedback.textContent = "";
+
+    let a = getRandomInt(1, 12);
+    let b = getRandomInt(1, 12);
+    let c = getRandomInt(1, 10);
+    let operators = ['+', '-', '*'];
+    let op1 = operators[getRandomInt(0, 2)];
+    let op2 = operators[getRandomInt(0, 2)];
+
+    let expr = `${a} ${op1} ${b} ${op2} ${c}`;
+    let correctAnswer = eval(expr);
+    mathQ.textContent = `Hitung: ${expr.replace('*', 'x')}`;
+
+    let options = [correctAnswer];
+    while (options.length < 5) {
+      let distractor = correctAnswer + getRandomInt(-5, 5);
+      if (!options.includes(distractor)) options.push(distractor);
+    }
+
+    shuffleArray(options);
+    options.forEach(num => {
+      let btn = document.createElement("div");
+      btn.textContent = num;
+      btn.style.width = "80px";
+      btn.style.height = "80px";
+      btn.style.borderRadius = "8px";
+      btn.style.cursor = "pointer";
+      btn.style.display = "flex";
+      btn.style.alignItems = "center";
+      btn.style.justifyContent = "center";
+      btn.style.backgroundColor = "#e0ecff";
+      btn.style.border = "2px solid #457b9d";
+      btn.style.fontWeight = "bold";
+      btn.style.fontSize = "18px";
+      btn.onclick = () => {
+        if (num === correctAnswer) {
+          mathFeedback.textContent = "🎉 Benar!";
+          mathFeedback.style.color = "green";
+          mathScore++;
+        } else {
+          mathFeedback.textContent = `❌ Salah! Jawaban benar: ${correctAnswer}`;
+          mathFeedback.style.color = "red";
+          mathScore = 0;
+        }
+        mathScoreEl.textContent = mathScore;
+      };
+      mathChoices.appendChild(btn);
+    });
+  }
+
+  // Utility
+  function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i+1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+  }
+
+  generateMathGame();
+</script>
+
+
+</body>
+</html>
